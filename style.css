@@ -1,0 +1,101 @@
+:root{
+    --MediumGray: hsl(0, 0%, 41%);
+    --AlmostWhite: hsl(0, 0%, 98%);
+    --AlmostBlack: hsl(0, 0%, 8%)
+
+}
+
+.displayFlex{
+display: flex;
+align-items: center;
+}
+nav{
+    padding: 2rem;
+}
+.margin{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.register{
+    border: 1px solid black;
+    padding: .5em 1em;
+    border-radius: 1em;
+}
+
+.register:hover{
+    background-color: var(--AlmostBlack);
+    color: var(--AlmostWhite);
+}
+
+.navList{
+    margin-left: 2rem;
+}
+
+.listStyle{
+    list-style: none;
+}
+li{
+    margin-right: 1rem;
+    color: var(--MediumGray);
+}
+
+li:hover{
+    cursor: pointer;
+    color: var(--AlmostBlack);
+}
+
+ul span{
+    margin-left: 65rem;
+}
+
+section{
+    padding: 0rem 2rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+    width: 28%;
+}
+
+section div span{
+    font-weight: 700;
+    font-size: 3em;
+}
+
+section ul{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 18px;
+    color: var(--MediumGray);
+}
+
+button{
+    padding: .5em;
+    background-color: black;
+    color: white;
+    border-radius: .7em;
+    margin-bottom: 6.4em;
+}
+
+button:hover{
+    background-color: var(--AlmostWhite);
+    color: var(--AlmostBlack);
+}
+
+#mainImg{
+width: 30%;
+margin-left: 15rem;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
