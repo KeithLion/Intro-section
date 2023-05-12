@@ -20,14 +20,26 @@ nav{
     display: inline-block;
     position: relative;
 }
+.dropdown a{
+    color: var(--MediumGray);
+    text-decoration: none;
+}
 .dropdown-options{
     display: none;
     position: absolute;
     overflow: auto;
+    /* border-radius: 1em; */
+    /* box-shadow:20px 20px 30px var(--MediumGray) ; */
+
+}
+.dropdown-options a{
+    text-decoration: none;
+    color: var(--MediumGray);
+    display: block;
 }
 .dropdown:hover .dropdown-options{
     display: block;
-    
+
 }
 .register{
     border: 1px solid black;
