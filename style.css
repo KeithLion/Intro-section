@@ -16,6 +16,19 @@ nav{
     margin-bottom: 2em;
     margin-top: 2em;
 }
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-options{
+    display: none;
+    position: absolute;
+    overflow: auto;
+}
+.dropdown:hover .dropdown-options{
+    display: block;
+    
+}
 .register{
     border: 1px solid black;
     padding: .5em 1em;
